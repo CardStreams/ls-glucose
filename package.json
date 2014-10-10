@@ -1,0 +1,27 @@
+{
+  "name": "ls-glucose",
+  "version": "0.0.0",
+  "description": "API Sweetener / reverse routing utility",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Lifestreams/ls-glucose"
+  },
+  "bugs": "https://github.com/Lifestreams/ls-glucose/issues",
+  "main": "index.js",
+  "scripts": {
+    "install-dev": "npm install -g istanbul jasmine-node@2.0.0-beta4",
+    "test": "istanbul test jasmine-node test"
+  },
+  "keywords": [
+    "api",
+    "syntax",
+    "sugar",
+    "sweetener"
+  ],
+  "author": "Lifestreams Technologies (http://www.lifestreams.com/), Szymon Pilkowski <szymon.pilkowski@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^2.0.0-beta4",
+    "istanbul": "~0.3.2"
+  }
+}
