@@ -53,7 +53,7 @@ and return object with generated 'sugar' methods: `getPost`, `createPost`. few e
 ## dev build
 
     npm install ls-glucose
-    cd glucose
+    cd ls-glucose
     npm run-script install-dev # depending on your config may ask for sudo
 
 ## test
